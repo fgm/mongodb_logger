@@ -1,0 +1,20 @@
+{
+  "authors": [
+    {
+      "name": "Frederic G. MARAND",
+      "email": "fgm@osinet.fr"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "FGM\\MongoDBLogger\\": "src/"
+    }
+  },
+  "description": "A PSR/3 log producer for MongoDB",
+  "license": "GPL-2.0+",
+  "minimum-stability": "dev",
+  "name": "fgm/mongodb_logger",
+  "require": {
+    "psr/log": "^1.0@dev"
+  }
+}
