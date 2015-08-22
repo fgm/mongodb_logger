@@ -15,6 +15,6 @@
   "minimum-stability": "dev",
   "name": "fgm/mongodb_logger",
   "require": {
-    "psr/log": "^1.0@dev"
+    "psr/log": "^1.0"
   }
 }
