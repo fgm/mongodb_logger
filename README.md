@@ -9,7 +9,7 @@ It does *not* provide a PSR-3 logging destination, but a way to gather
 information from your MongoDB-using code, and pushing it to your choice of PSR-3
 logger (e.g Monolog in general PHP code, or `mongodb_watchdog` in Drupal 6/7/8).
 
-This code **requires** the legacy `mongo` extension: these feaatures have been
+This code **requires** the legacy `mongo` extension: these features have been
 removed from the newer `mongodb` (phongo) extension:
 
 * https://jira.mongodb.org/browse/PHPLIB-30 : won't fix
